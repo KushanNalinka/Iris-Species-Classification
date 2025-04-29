@@ -1,4 +1,4 @@
-# 🌸 Iris Species Classification using SVM | ML Project
+# 🌸 Iris Species Classification using ML Project
 
 ![Iris Flower](https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg)
 
