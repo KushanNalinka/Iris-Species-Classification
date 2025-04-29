@@ -36,17 +36,43 @@ We compare SVM with **Random Forest** and **MLP (Neural Network)** to evaluate p
 
 ---
 
-## 📊 Results
+This project focuses on classifying iris flowers into three species — Setosa, Versicolor, and Virginica — using supervised machine learning models. We use the classic Iris dataset, which contains 150 samples with four features: sepal length, sepal width, petal length, and petal width.
 
-### ✅ Accuracy Comparison
+🔍 Goals
+To compare the performance of multiple machine learning models including:
 
-![Accuracy Comparison Chart](assets/accuracy_comparison.png)
+Random Forest
 
-### 📉 Confusion Matrices
+Support Vector Machine (SVM)
 
-<img src="assets/rf_cm.png" width="32%"> <img src="assets/svm_cm.png" width="32%"> <img src="assets/mlp_cm.png" width="32%">
+Multi-Layer Perceptron (MLP)
 
----
+✅ Key Steps
+Loaded and explored the Iris dataset.
+
+Preprocessed data by encoding labels and standardizing features.
+
+Split the dataset into training and test sets.
+
+Trained models using Random Forest, SVM (with linear kernel), and MLP.
+
+Evaluated each model using accuracy, classification reports, and confusion matrices.
+
+Performed 5-fold cross-validation to assess model stability.
+
+📈 Results
+SVM achieved 96.67% accuracy on the test set and 98% average accuracy in cross-validation.
+
+Random Forest and MLP both achieved 100% accuracy on the test set.
+
+All models showed excellent classification performance, with SVM being a strong and efficient choice due to its robustness and generalization power.
+
+📊 Visualization
+The project includes visualizations like:
+
+Model accuracy comparison bar chart
+
+Confusion matrices for each classifier
 
 ## 🎥 Demo Video
 
